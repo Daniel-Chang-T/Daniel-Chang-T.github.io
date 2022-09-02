@@ -4,7 +4,8 @@ disqus:
   disqus_shortname: 'https-lenpaul-github-io-lagrange'
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
-google-ID: 'G-56LK5TD36V'
+#google-ID: 'G-56LK5TD36V'
+google-ID: ''
 
 menu:
 - {name: 'About',   url: 'about.html'}

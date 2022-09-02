@@ -44,7 +44,7 @@ $f$ 的 serjectivity 是顯而易見的，因為 $\forall x \in a, f\ [x] = x \o
 我想改寫之前聽過的，代數助教的說法來總結 : 「一個 free structure 是只有最基本的結構的東西，所以對於任何更有結構的東西，它都有辦法映射過去。」
 
 ## 兩種 Monad 定義
-如果前面那段你讀的霧茫茫，這段會岔開一下講別的東西，給你點時間接受 free structure。
+如果前面那段你讀的霧茫茫，這段會岔開一下講別的東西，給你點時間接受 free structure 的想法。
 在大多數講Haskell的參考資料中，Monad 是由 $return$ 和 $>>=$這兩個operator來定義的。但為了等一下比較方便，這裡介紹另一種Monad的定義方式：$return::a\rightarrow m a, fmap$ 和 $join$。
 
 ## Free monad 的 "Free" 是什麼意思?
