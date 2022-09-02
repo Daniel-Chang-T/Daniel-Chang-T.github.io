@@ -1,19 +1,24 @@
 ---
 layout: page
-title: Welcome to Lagrange!
+title: Who am I?
 permalink: /about
 ---
 
-Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
+I am 張 志謙(Chih-Chien Chang)/Daniel Chang, an undergraduate student double major in computer science and mathematics at NTU(National Taiwan University). Anticipate to graduate in June,2023.
 
-### Getting Started
+Loves interesting things, such as novel, math, coding and boardgames.
 
-[Getting Started]({{ site.github.url }}{% post_url 2015-10-10-getting-started %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+## Contacts
+Mail: b08902128@csie.ntu.edu.tw
 
-### Example Content
+Github: [Daniel-Chang-T](https://github.com/Daniel-Chang-T)
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
+## Programming languages
+C/C++, Python, Haskell, Agda.
 
-### Questions?
-
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
+## Experience
+- Participated in institute of information science, academia sinica (中研院資訊所) 2022 Summer Internship Program, Prof. Mu, Shin-Cheng’s lab. Research topic was about interaction of side effects.
+- TA in 2021前瞻科學營-量子計算.
+- Staff in 2021APCS camp. Was responsible for preparing a portion of exercises used in camp.
+- Lecturer in 3rd SCMS(Summer Camp for Mathematics and Science),2020.
+- Director of NTU board game club, March 2020~June 2022.
