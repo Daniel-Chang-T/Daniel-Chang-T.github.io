@@ -49,7 +49,6 @@ $f$ 的 serjectivity 是顯而易見的，因為 $\forall x \in a, f\ [x] = x \o
 
 ## 兩種 Monad 定義
 如果前面那段你讀的霧茫茫，這段會岔開一下講別的東西，給你點時間接受 free structure 的想法。
-在大多數講Haskell的參考資料中，Monad 是由 $return$ 和 $>>=$這兩個operator來定義的。但為了等一下比較方便，這裡介紹另一種Monad的定義方式：$return::a\rightarrow m a, fmap$ 和 $join$。
-
+在大多數講Haskell的參考資料中，Monad 是由 $return$ 和 $>>=$這兩個operator來定義的。但為了等一下比較方便，這裡介紹另一種Monad的定義方式：$return::a\rightarrow m a, fmap$ 和 $join$
 ## Free monad 的 "Free" 是什麼意思?
 如果你很剛好的修過抽象代數，你八成會遇過一個叫Free group的東西，Free Monad 的"Free" exactly就是 Free group的 "Free"。我的代數助教是這麼說的:「所謂的Free group呢，就是一個很沒有結構的group。那要怎麼描述它很沒有結構這件事呢?就是你隨便給一個group，都能從Free group serjectively的打過去」。
