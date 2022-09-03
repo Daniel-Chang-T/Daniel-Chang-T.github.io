@@ -10,14 +10,14 @@ google-ID: ''
 menu:
 - {name: 'About',   url: 'about.html'}
 - {name: 'Writing', url: 'writing.html'}
-- {name: 'Contact', url: 'contact.html'}
+#- {name: 'Contact', url: 'contact.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'github',     link: 'https://www.github.com/lenpaul'}
-- {icon: 'twitter',    link: 'https://twitter.com/paululele'}
-- {icon: 'linkedin',   link: 'http://www.linkedin.com/in/lenpaul/'}
-- {icon: 'envelope',   link: 'mailto:l.nguyen.paul@gmail.com'}
+- {icon: 'github',     link: 'https://www.github.com/Daniel-Chang-T'}
+# - {icon: 'twitter',    link: 'https://twitter.com/paululele'}
+#- {icon: 'linkedin',   link: 'https://www.linkedin.com/in/%E5%BF%97%E8%AC%99-%E5%BC%B5-027a0520a'}
+- {icon: 'envelope',   link: 'mailto:b08902128@csie.ntu.edu.tw'}
 - {icon: 'rss-square', link: '/feed.xml'}
 # - {icon: 'rss-square', link: '/rss-feed.xml'}
 
@@ -28,6 +28,6 @@ pagination:
 
 sharing_button_prompt: 'Feel free to share!'
 
-related_posts: 'You may also enjoy:'
+#related_posts: 'You may also enjoy:'
 
 post_date_prefix: 'Written on'

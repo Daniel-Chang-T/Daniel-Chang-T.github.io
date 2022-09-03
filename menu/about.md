@@ -13,6 +13,8 @@ Mail: b08902128@csie.ntu.edu.tw
 
 Github: [Daniel-Chang-T](https://github.com/Daniel-Chang-T)
 
+Feel free to contact me!
+
 ## Programming languages
 C/C++, Python, Haskell, Agda.
 
@@ -22,3 +24,5 @@ C/C++, Python, Haskell, Agda.
 - Staff in 2021APCS camp. Was responsible for preparing a portion of exercises used in camp.
 - Lecturer in 3rd SCMS(Summer Camp for Mathematics and Science),2020.
 - Director of NTU board game club, March 2020~June 2022.
+
+This site is built up with [github page](https://pages.github.com/), [jekyll](https://jekyllrb.com/) and [Lagrange](https://github.com/LeNPaul/Lagrange). The icon is <a href="https://www.flaticon.com/free-icons/book" title="book icons">Book icons created by Freepik - Flaticon</a>

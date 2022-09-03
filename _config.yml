@@ -11,8 +11,7 @@
 #   sort_reverse: true
 
 # jekyll-paginate configuration
-paginate:            5
-
+paginate:             5
 # Build settings
 markdown:            kramdown
 highlighter:         rouge
@@ -20,9 +19,9 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'Lagrange'
-description:	       'a minimalist Jekyll theme'
-author:              'Paul Le'
+title:		           "張志謙's blog"
+description:	       '關於程式/數學/桌遊/小說的各種東東'
+author:              '張志謙'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
