@@ -26,19 +26,23 @@ monoid 是最簡單的代數結構之一，它的定義包含了一個集合 $M$
 morphism 指的是那些會保持代數結構的，從結構到結構的函數。像一個從 $(M_1, \oplus _1,e_1)$ 到 $(M_2, \oplus _2,e_2)$ 的 monoid morphism f，就該滿足這條式子 $\forall x,y\in M_1 , f(x \oplus _1 y) = f(x) \oplus _2 f(y)$
 ### $([a] , ++, []  )$ 是 free monoid over $a$
 我們先把 type theorist 的嘴堵上，假裝每個 type 都會是一個 set，每個 set 也都是一個 type，好省掉許多麻煩的討論。 $(M, \oplus, e)$ 要被稱為free monoid over $a$ ，對於所有在$a$ 上訂出來的 monoid $(a, \oplus', e')$ ，都要存在從 $(M, \oplus, e)$ 到 $(a, \oplus', e')$ 的 serjective monoid morphism。 $( [a] , ++, [] )$ 滿足這條件嗎? 對這個 case 而言，monoid morphism $f$ 是可以直接被明確定義出來的 : 
+
 $$
 f :: [a] \to a\\
 f\ [] = e'\\
 f\ (x:xs) = x\ \oplus'\ (f xs)
 $$
+
 或者也可以寫成
+
 $$
 f :: [a] \to a\\
 f = foldr\ (\oplus')\ e'
 $$
+
 $f$ 的 serjectivity 是顯而易見的，因為 $\forall x \in a, f\ [x] = x \oplus' e' = x$
 
-如果要驗證 $f$ 真的是個 monoid morphism，就要確認 $f\ ([a_1,a_2,...,a_n] ++ [a_{n+1},...,a_m]) = (f\ [a_1,a_2,...,a_n]) \oplus' (f\ [a_{n+1},...,a_m])$ 這條等式真的永遠成立，證明過程自然是對第一個 list 的長度 $n$ 做 induction，base case 跟 induction case 對應到了 $(a,\oplus',e')$ 的單元律與結合律。 ( 詳細證明留給讀者作為習題 XD )
+如果要驗證 $f$ 真的是個 monoid morphism，就要確認 $f\ (xs ++\ ys) = (f\ xs) \oplus' (f\ ys)$ 這條等式真的永遠成立，證明過程自然是對 $xs$ 的長度 做 induction，base case 跟 induction case 分別對應 monoid 的單元律與結合律。 ( 詳細證明留給讀者作為習題 XD )
 
 ### 所以什麼是 free structure
 我想改寫之前聽過的，代數助教的說法來總結 : 「一個 free structure 是只有最基本的結構的東西，所以對於任何更有結構的東西，它都有辦法映射過去。」
