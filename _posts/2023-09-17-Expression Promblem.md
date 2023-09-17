@@ -1,0 +1,10 @@
+# Some notes about the expression problem
+Recently writing java code, and wounders why there's no ADT(Algebraic data type) in java. Google and find the keyword expression problem. 
+The term ADT vs Object doesn't precisely describe the difference between them. It's more about when there's many data types and many operations. We have two choices:
+- make a list describing what operations the data may be processed, and each data type implement the listed operations in a neighborhood of the code describe data. The list is called interface and this is the "object solution".
+- make a list of data types, and each whenever an oeeration get a data, it go through the list, "matching" the data type and use corresponding code to process it. The list is called "union(noun.),  and this is the "ADT solution.
+
+[The Expression Problem and its solutions](https://eli.thegreenplace.net/2016/the-expression-problem-and-its-solutions/) address this problem clearly with a simple interpreter example: Inheritance works well when adding new data types, since we attact the operations to the data type. ADT works well when adding new operations, since the operations can get a exhaustive list and wirte all new code in a single function.
+The article also claims the visitor pattern in some extends solves the problem in OO. The ADT complemention idea may be less well known to the OO comunity but proposed 6 years before: [How to make ad-hoc polymorphism less ad hoc](https://dl.acm.org/doi/abs/10.1145/75277.75283) a.k.a. the type class in Haskell.
+They are somehow the same ultimate solution: adding another layer of indirection. Fix a set of "atomic operations" which every other operation should able to be built with them. Adding an operation? Just built with atomic operations. Adding a type of data? implement the corresponding operations. 
+In my opinion: After all, in a programm with many layers of indirection, the interfaces between the layers are mostly operation. OO might win this round.
